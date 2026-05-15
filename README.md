@@ -6,9 +6,8 @@ weighted Stable Diffusion prompt fragment of the form
 `(artist1:weight1), (artist2:weight2), ...`.
 
 This is a port of the upstream CLI tool
-[`find_artists.py`](https://github.com/NotShrirang/Illustrious-NoobAI-Style-Explorer/blob/main/scripts/find_artists.py)
-into a single ComfyUI node. The search algorithm (closed-form combination
-sweep + bounded NNLS refine) is reused verbatim.
+[`find_artists.py`](https://github.com/skht777/Illustrious-NoobAI-Style-Explorer/blob/main/scripts/find_artists.py)
+into a single ComfyUI node. The search algorithm (closed-form combination sweep + bounded NNLS refine) is reused verbatim.
 
 ## Installation
 
@@ -36,7 +35,7 @@ ComfyUI/models/artist_embeddings/
 ```
 
 `.npz` files come from the upstream
-[Illustrious-NoobAI-Style-Explorer](https://github.com/NotShrirang/Illustrious-NoobAI-Style-Explorer)
+[Illustrious-NoobAI-Style-Explorer](https://github.com/skht777/Illustrious-NoobAI-Style-Explorer)
 repo's `data/` directory.
 
 For human-readable artist names, also place an id-name map. The node
